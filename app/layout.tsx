@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const siteUrl = "https://thekidsevergreen.com"; // Replace with your actual domain
+const siteUrl = "https://thekidsevergreen.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "The Kids Evergreen - Best Play School & Preschool in Indore",
     description: "Trusted play school in Indore offering Play Group, Nursery, LKG & UKG. Safe environment, experienced teachers. Admission open!",
     images: ["/logo.jpeg"],
-    creator: "@thekidsevergreen", // Replace with actual Twitter handle if available
+    creator: "@thekidsevergreen",
   },
   robots: {
     index: true,
@@ -75,9 +75,7 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   verification: {
-    google: "your-google-verification-code", // Add your Google Search Console verification code
-    // yandex: "your-yandex-verification-code",
-    // bing: "your-bing-verification-code",
+    google: "iHbt9ADLgbw7iVgNDaZiKrZVk_-0N4F-48D-wZs916E",
   },
   category: "education",
 };

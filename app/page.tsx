@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
 export default function Home() {
-  const baseUrl = "https://thekidsevergreen.com"; // Replace with your actual domain
+  const baseUrl = "https://thekidsevergreen.vercel.app";
 
   // 1. Main Organization Schema - Educational Organization
   const organizationSchema = {
