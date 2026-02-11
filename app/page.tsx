@@ -228,7 +228,7 @@ export default function Home() {
     ]
   };
 
-  // 3. Breadcrumb Schema
+  // 3. Breadcrumb Schema - Fixed for Google Guidelines
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -238,30 +238,6 @@ export default function Home() {
         "position": 1,
         "name": "Home",
         "item": baseUrl
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Programs",
-        "item": `${baseUrl}/#programs`
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Features",
-        "item": `${baseUrl}/#features`
-      },
-      {
-        "@type": "ListItem",
-        "position": 4,
-        "name": "Gallery",
-        "item": `${baseUrl}/#gallery`
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "name": "Contact",
-        "item": `${baseUrl}/#contact`
       }
     ]
   };
