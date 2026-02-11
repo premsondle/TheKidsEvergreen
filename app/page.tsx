@@ -232,6 +232,7 @@ export default function Home() {
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${baseUrl}/#breadcrumb`,
     "itemListElement": [
       {
         "@type": "ListItem",
