@@ -5,28 +5,28 @@ export default function Programs() {
   const programs = [
     { 
       name: "PLAY GROUP", 
-      age: "1.5 - 2.5 years", 
+      age: "2.0 - 2.5 years", 
       description: "Introduction to learning through play",
       icon: "🎪",
       color: "from-red-400 to-pink-400"
     },
     { 
       name: "NURSERY", 
-      age: "2.5 - 3.5 years", 
+      age: "3.0 - 3.5 years", 
       description: "Building foundation skills",
       icon: "🌱",
       color: "from-green-400 to-emerald-400"
     },
     { 
       name: "L.K.G", 
-      age: "3.5 - 4.5 years", 
+      age: "4.0 - 4.5 years", 
       description: "Lower Kindergarten program",
       icon: "📚",
       color: "from-blue-400 to-cyan-400"
     },
     { 
       name: "U.K.G", 
-      age: "4.5 - 5.5 years", 
+      age: "5.0 - 5.5 years", 
       description: "Upper Kindergarten program",
       icon: "🎓",
       color: "from-purple-400 to-pink-400"
